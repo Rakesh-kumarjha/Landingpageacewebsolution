@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default function ContactUs() {
     return (
         <>
+        <Header />
             <div className="py-4 lg:py-8  relative">
                 <img src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden" alt="map" />
                 <div className="xl:mx-auto xl:container  relative ">
@@ -56,6 +59,7 @@ export default function ContactUs() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
